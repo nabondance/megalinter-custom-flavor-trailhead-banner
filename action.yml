@@ -7,7 +7,7 @@ outputs:
 runs:
   using: "docker"
   # You can manually update the Docker image version here, or use the latest tag
-  image: "docker://ghcr.io/git@github.com:nabondance/megalinter-custom-flavor-trailhead-banner/megalinter-custom-flavor:latest"
+  image: "docker://ghcr.io/nabondance/megalinter-custom-flavor-trailhead-banner/megalinter-custom-flavor:latest"
   args:
     - "-v"
     - "/var/run/docker.sock:/var/run/docker.sock:rw"
