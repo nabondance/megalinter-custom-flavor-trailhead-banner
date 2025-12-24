@@ -1,0 +1,19 @@
+# MegaLinter Custom Flavor configuration
+# If you update it manually, run `npx mega-linter-runner --custom-flavor-setup` to propagate updates.
+
+label: trailhead-banner
+linters:
+  - ACTION_ACTIONLINT
+  - CSS_STYLELINT
+  - JAVASCRIPT_ES
+  - JAVASCRIPT_PRETTIER
+  - JSON_NPM_PACKAGE_JSON_LINT
+  - JSON_PRETTIER
+  - JSON_V8R
+  - MARKDOWN_MARKDOWNLINT
+  - REPOSITORY_GITLEAKS
+  - REPOSITORY_GRYPE
+  - REPOSITORY_SYFT
+  - YAML_PRETTIER
+  - YAML_V8R
+  - YAML_YAMLLINT
